@@ -1,0 +1,13 @@
+version: '3'
+services:
+  ubuntu:
+    build: .
+    tty: true
+    stdin_open: true
+    container_name: atcoder
+    ports:
+      - "8086:8086"
+    volumes:
+      - type: bind
+        source: ./data
+        target: /home
