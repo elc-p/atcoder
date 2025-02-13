@@ -1,0 +1,6 @@
+{
+  "files.associations": {
+    "shadow": "plaintext",
+    "iosfwd": "cpp"
+  }
+}
